@@ -1,0 +1,16 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "Statement1",
+			"Effect": "Allow",
+			"Action": [
+			    "ssm:StartAutomationExecution",
+			    "ssm:GetAutomationExecution",
+			    "ec2:DescribeInstances",
+                "ec2:ModifyInstanceMetadataOptions"
+			    ],
+			"Resource": "*"	
+		}
+	]
+}
